@@ -1,6 +1,6 @@
 
 .container-fluid{
-    background-image: radial-gradient( circle farthest-corner at 12.3% 19.3%,  rgba(85,88,218,1) 0%, rgba(95,209,249,1) 100.2% );
+    background-color: #EAF6F6;
     padding: 0 0;
 }
 h2{
@@ -8,12 +8,17 @@ h2{
     padding-top: 15%;
     font-family: 'Sacramento', cursive;
     font-size: 60px;
-    color: aqua;
+    color: #11999E;
+    font-weight: bold;
+    
+   
 }
 p{
     text-align: center;
     padding:0 10%;
-    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:900;
+    
 }
 
 .big-img{
@@ -25,6 +30,19 @@ p{
     text-align: center; 
     padding: 5% 0%; 
 }
-.btn{
+.btn {
+    -webkit-border-radius: 5;
+    -moz-border-radius: 5;
+    border-radius: 5px;
+    color: #ffff;
+    font-size: 21px;
+    background: #11999E;
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
     margin: 2%;
-}
+  }
+  
+  .btn:hover {
+    background: #66BFBF;
+    text-decoration: none;
+  }
