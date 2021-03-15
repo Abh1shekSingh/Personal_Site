@@ -1,0 +1,137 @@
+
+.container-fluid{
+    background-image: radial-gradient( circle farthest-corner at 12.3% 19.3%,  rgba(85,88,218,1) 0%, rgba(95,209,249,1) 100.2% );
+    padding: 0 0;
+    
+}
+.nav-link-disabled{
+    color: grey;
+}
+
+h2{
+    text-align: center;
+    padding-top: 15%;
+    font-family: 'Sacramento', cursive;
+    font-weight: bold;
+    font-size: 65px;
+    background: -webkit-linear-gradient(rgb(240, 255, 106), rgb(251, 255, 43));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+   
+}
+p{
+    text-align: center;
+    padding:0 10%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:900;
+    color: #fff;
+    
+}
+
+.big-img{
+    width: 65%;
+    margin-left: 15%;
+}
+
+.button{
+    text-align: center; 
+    padding: 5% 0%; 
+}
+.btn {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    margin: 7px;
+    border-width: 3px ;
+  }
+  
+  .btn:hover {
+    background: #fff;
+    text-decoration: none;
+  }
+.navbar-nav{
+    margin-right: 10%;
+}
+  /* MiddleSection */
+
+.middle{
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(234,249,249,0.67) 0.1%, rgba(239,249,251,0.63) 90.1% );
+    padding: 0%;
+    text-align: center;
+    }
+ .container{
+        padding: 3%;
+        background-color: #F4F9F9;
+        text-align: center;
+    }
+   .about_pic{
+       width: 60%;
+       padding: 3% 0% ;
+   } 
+   
+
+   .intro {
+       font-family: 'Merriweather', serif;
+       font-weight:500;
+       font-size: 17px;
+       padding: ;
+       color: black;
+   }
+   h1{
+       padding-top: 10%;
+       color: hsl(246, 100%, 70%);
+       font-family:'Ubuntu', sans-serif; 
+   }
+  
+
+   h5{
+       color: hsl(246, 100%, 70%);
+       font-family:'Montserrat', sans-serif; 
+        font-weight: 800;
+        padding: 3% 0;
+        
+   }
+   .My-skills{
+    width: 60%;
+    position:relative;
+    right: 2%;
+}
+
+
+/* Intresed DIV */
+
+.Intrested{
+    background-image: radial-gradient( circle farthest-corner at 12.3% 19.3%,  rgba(85,88,218,1) 0%, rgba(95,209,249,1) 100.2% );
+    padding-bottom: 3%;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+a:hover{
+    text-decoration: none;
+    color: #000;
+}
+
+/* ending */
+
+.end{
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(234,249,249,0.67) 0.1%, rgba(239,249,251,0.63) 90.1% );
+    padding: 5% 0 0% 0;
+    text-align: center;
+    
+}
+.end p{
+    color: black;
+    font-size: 7px;
+    padding: 1% 0 0% 0;
+}
+.end i{
+    margin: 5px;
+    
+}
+
+.end a{
+    color: black;
+}
