@@ -4,6 +4,10 @@
     padding: 0 0;
     
 }
+.nav-link-disabled{
+    color: grey;
+}
+
 h2{
     text-align: center;
     padding-top: 15%;
@@ -51,7 +55,7 @@ p{
   /* MiddleSection */
 
 .middle{
-    background-image: linear-gradient( 109.6deg,  rgba(218,185,252,1) 11.2%, rgba(125,89,252,1) 91.1% );
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(234,249,249,0.67) 0.1%, rgba(239,249,251,0.63) 90.1% );
     padding: 0%;
     text-align: center;
     }
@@ -61,34 +65,73 @@ p{
         text-align: center;
     }
    .about_pic{
-       width: 50%;
-       padding: 7% 0% ;
+       width: 60%;
+       padding: 3% 0% ;
    } 
-   h3{
-       color: yellow;
-   }
+   
 
    .intro {
        font-family: 'Merriweather', serif;
-       font-weight: normal;
+       font-weight:500;
        font-size: 17px;
        padding: ;
+       color: black;
    }
    h1{
        padding-top: 10%;
-       color: yellow;
+       color: hsl(246, 100%, 70%);
+       font-family:'Ubuntu', sans-serif; 
    }
-   .whattodo{
-       width: 35%;
-       position:relative;
-       right: 3%;
-       padding-top: 5%;
-       margin: 3%;
-   }
+  
 
    h5{
-       color: yellow;
-       font-family: 'Montserrat', sans-serif;
+       color: hsl(246, 100%, 70%);
+       font-family:'Montserrat', sans-serif; 
         font-weight: 800;
         padding: 3% 0;
+        
    }
+   .My-skills{
+    width: 60%;
+    position:relative;
+    right: 2%;
+}
+
+
+/* Intresed DIV */
+
+.Intrested{
+    background-image: radial-gradient( circle farthest-corner at 12.3% 19.3%,  rgba(85,88,218,1) 0%, rgba(95,209,249,1) 100.2% );
+    padding-bottom: 3%;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+a:hover{
+    text-decoration: none;
+    color: #000;
+}
+
+/* ending */
+
+.end{
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(234,249,249,0.67) 0.1%, rgba(239,249,251,0.63) 90.1% );
+    padding: 5% 0 0% 0;
+    text-align: center;
+    
+}
+.end p{
+    color: black;
+    font-size: 7px;
+    padding: 1% 0 0% 0;
+}
+.end i{
+    margin: 5px;
+    
+}
+
+.end a{
+    color: black;
+}
